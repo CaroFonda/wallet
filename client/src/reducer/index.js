@@ -3,6 +3,7 @@ const initialState = {
   favorites: [],
 };
 
+
 function rootReducer(state = initialState, action) {
   switch (action.type) {
     case "GET_ADDRESSES":
